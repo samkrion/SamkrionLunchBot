@@ -2,8 +2,10 @@
 import json, random
 import http.client
 import requests
+import os
+SLACK_URL = os.environ['SLACK_URL']
 def lambda_handler(event, context):
-    slack_url = "https://hooks.slack.com/services/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"
+    slack_url = SLACK_URL
     
     eat_list = getRandomDatas()
     fields = []
