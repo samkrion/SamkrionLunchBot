@@ -1,5 +1,5 @@
 **/*/__pycache__
 .env
-**/*/*.zip
+*.zip
 .python-version
 **/*/.DS_Store
